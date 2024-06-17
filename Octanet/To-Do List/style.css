@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #333;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+.remove-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.remove-btn:hover {
+    background-color: #555;
+}
+
+#message, #delete-message {
+    color: #fff;
+}
